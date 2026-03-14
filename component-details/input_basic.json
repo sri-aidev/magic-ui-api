@@ -1,0 +1,17 @@
+{
+  "id": "input_basic",
+  "name": "Input Field",
+  "type": "input",
+  "size": { "width": 280, "height": 44 },
+  "styles": {
+    "fill": "color.primary",
+    "radius": "radius.md",
+    "spacing": "spacing.md"
+  },
+  "elements": [
+    { "id": "label", "type": "text", "text": "Label" },
+    { "id": "placeholder", "type": "text", "text": "Type here" }
+  ],
+  "variants": ["default"],
+  "toggles": ["showLabel", "showPlaceholder"]
+}

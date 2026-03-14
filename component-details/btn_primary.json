@@ -1,0 +1,18 @@
+{
+  "id": "btn_primary",
+  "name": "Primary Button",
+  "type": "button",
+  "size": { "width": 140, "height": 44 },
+  "styles": {
+    "fill": "color.primary",
+    "radius": "radius.md",
+    "spacing": "spacing.md"
+  },
+  "elements": [
+    { "id": "icon", "type": "icon", "visible": true },
+    { "id": "label", "type": "text", "text": "Button", "visible": true },
+    { "id": "badge", "type": "text", "text": "New", "visible": true }
+  ],
+  "variants": ["primary", "secondary"],
+  "toggles": ["showIcon", "showLabel", "showBadge"]
+}

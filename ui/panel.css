@@ -1,0 +1,143 @@
+:root {
+  color-scheme: light;
+  --bg: #f8f1e7;
+  --panel: #ffffff;
+  --ink: #1f1f1f;
+  --muted: #6a5f5a;
+  --accent: #f26d3d;
+  --accent-soft: #ffe1d2;
+  --border: #e7dfd9;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Georgia", "Times New Roman", serif;
+  background: radial-gradient(circle at top, #fff5e8, var(--bg));
+  color: var(--ink);
+}
+
+.panel {
+  padding: 20px;
+}
+
+.panel__header h1 {
+  margin: 0 0 12px;
+  font-size: 20px;
+  letter-spacing: 0.4px;
+}
+
+.status {
+  font-size: 11px;
+  color: var(--muted);
+  margin-bottom: 6px;
+}
+
+.panel__content {
+  display: grid;
+  gap: 18px;
+}
+
+.section {
+  border-top: 1px solid var(--border);
+  padding-top: 12px;
+}
+
+.section__title {
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: var(--muted);
+  margin-bottom: 10px;
+}
+
+.field {
+  display: grid;
+  gap: 6px;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: var(--muted);
+}
+
+.input {
+  width: 100%;
+  padding: 10px 12px;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  font-size: 14px;
+  background: var(--panel);
+}
+
+.results {
+  display: grid;
+  gap: 12px;
+}
+
+.component-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 10px;
+  margin-bottom: 10px;
+  background: var(--panel);
+  display: grid;
+  gap: 8px;
+}
+
+.preview {
+  width: 100%;
+  height: 80px;
+  object-fit: contain;
+  border-radius: 6px;
+  background: #f6f4f1;
+}
+
+.component-name {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+button {
+  width: 100%;
+  margin-top: 6px;
+  padding: 8px 12px;
+  border-radius: 8px;
+  border: none;
+  background: var(--accent);
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.selection-name {
+  font-size: 13px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.toggle-list {
+  display: grid;
+  gap: 8px;
+  font-size: 12px;
+  color: var(--muted);
+  margin-top: 8px;
+}
+
+.toggle {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 12px;
+  color: var(--ink);
+}
+
+.empty {
+  padding: 10px;
+  border: 1px dashed var(--border);
+  border-radius: 8px;
+  color: var(--muted);
+  font-size: 12px;
+}

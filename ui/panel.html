@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Magic UI</title>
+    <link rel="stylesheet" href="panel.css" />
+  </head>
+  <body>
+    <main class="panel">
+      <header class="panel__header">
+        <h1>Magic UI</h1>
+        <div id="status" class="status">Loading…</div>
+      </header>
+
+      <section class="panel__content">
+        <div class="section">
+          <div class="section__title">Search Components</div>
+          <input
+            id="search"
+            class="input"
+            type="search"
+            placeholder="Search components"
+            autocomplete="off"
+          />
+        </div>
+
+        <div class="section">
+          <div class="section__title">Components</div>
+          <div id="results" class="results" aria-live="polite"></div>
+          <div id="empty-state" class="empty" hidden>No results.</div>
+        </div>
+
+        <div class="section">
+          <div class="section__title">Design System</div>
+          <select id="design-system" class="input"></select>
+        </div>
+
+        <div class="section">
+          <div class="section__title">Selected Component</div>
+          <div id="selection-name" class="selection-name">None selected</div>
+          <label class="field">
+            <span>Text</span>
+            <input id="text-input" class="input" type="text" disabled />
+          </label>
+          <div id="toggle-list" class="toggle-list"></div>
+        </div>
+      </section>
+    </main>
+
+    <script src="panel.js"></script>
+  </body>
+</html>

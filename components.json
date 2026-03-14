@@ -1,0 +1,20 @@
+[
+  {
+    "id": "btn_primary",
+    "name": "Primary Button",
+    "type": "button",
+    "preview": "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='240' height='120' viewBox='0 0 240 120'><rect width='240' height='120' rx='16' fill='%23F4F2EF'/><rect x='40' y='44' width='160' height='32' rx='16' fill='%234F46E5'/><text x='120' y='64' font-family='Inter, Arial' font-size='12' fill='white' text-anchor='middle' dominant-baseline='middle'>Button</text></svg>"
+  },
+  {
+    "id": "card_basic",
+    "name": "Basic Card",
+    "type": "card",
+    "preview": "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='240' height='120' viewBox='0 0 240 120'><rect width='240' height='120' rx='16' fill='%23F4F2EF'/><rect x='32' y='22' width='176' height='76' rx='12' fill='white' stroke='%23E7DFD9'/><rect x='48' y='38' width='80' height='10' rx='5' fill='%234F46E5'/><rect x='48' y='58' width='110' height='8' rx='4' fill='%239C8F86'/></svg>"
+  },
+  {
+    "id": "input_basic",
+    "name": "Input Field",
+    "type": "input",
+    "preview": "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='240' height='120' viewBox='0 0 240 120'><rect width='240' height='120' rx='16' fill='%23F4F2EF'/><rect x='32' y='48' width='176' height='28' rx='8' fill='white' stroke='%23E7DFD9'/><rect x='44' y='58' width='80' height='6' rx='3' fill='%239C8F86'/></svg>"
+  }
+]

@@ -1,0 +1,17 @@
+{
+  "id": "card_basic",
+  "name": "Basic Card",
+  "type": "card",
+  "size": { "width": 320, "height": 180 },
+  "styles": {
+    "fill": "color.primary",
+    "radius": "radius.md",
+    "spacing": "spacing.md"
+  },
+  "elements": [
+    { "id": "title", "type": "text", "text": "Card Title" },
+    { "id": "description", "type": "text", "text": "Card description goes here." }
+  ],
+  "variants": ["default"],
+  "toggles": ["showTitle", "showDescription"]
+}
